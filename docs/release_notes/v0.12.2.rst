@@ -1,0 +1,10 @@
+v0.12.2
+=======
+
+:date: 2015-06-08
+
+This release adds support for Django 1.8 and includes numerous small improvements:
+
+- Bugfix for stale data in prefetch_related caches when returning a resource that was just created or updated.
+- Fixes PUT response codes.
+- Documentation fixes.
